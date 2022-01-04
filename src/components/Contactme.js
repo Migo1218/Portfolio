@@ -19,7 +19,7 @@ const Contactme = () => {
         action="https://formsubmit.co/miguelhernandezidarraga@gmail.com" method="POST" target="_blank"
           onSubmit={() => submit()}
           class="mt-8 space-y-6"
-          action="#"
+         
           method="POST"
         >
           <input type="hidden" name="remember" value="true" />
