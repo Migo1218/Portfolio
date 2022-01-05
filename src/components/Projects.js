@@ -40,7 +40,7 @@ const Projects = () => {
           </div>
           <div className="flex flex-wrap w-1/3">
             <div className="w-full p-1 md:p-2">
-              <a href="https://pokedex-puce-five.vercel.app/">
+              <a href="https://pruebadesalida-18cd7.web.app/">
                 <img
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
