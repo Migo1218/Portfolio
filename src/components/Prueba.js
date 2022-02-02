@@ -42,7 +42,7 @@ const Prueba = () => {
                 </div>
                 <div class="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="https://drive.google.com/file/d/1AlUkyeWuSNo4CfuxN3Rz7P204rPUpPU-/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1pubarLNSODsNNyE8QkKgw5zIYJ-P9yNo/view?usp=sharing"
                     target="_blank"
                     class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
