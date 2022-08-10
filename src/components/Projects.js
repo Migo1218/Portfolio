@@ -6,6 +6,7 @@ import movies from "../img/movies.PNG";
 import utest from "../img/utest.PNG"
 import bokeein from '../img/bokkein.PNG'
 import gifsapp from '../img/libreriagifs.PNG'
+import adiapp from '../img/adiapp.PNG'
 
 const Projects = () => {
   return (
@@ -14,43 +15,37 @@ const Projects = () => {
       id="projects"
     >
       <h1 class="text-center text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl">
-        <span class=" block text-indigo-600 xl:inline"> Projects</span>
+      <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-4xl">
+        Projects
+      </p>
       </h1>
       <div className="container px-5 py-8 mx-auto lg:pt-12 lg:px-32">
         <div className="flex flex-wrap -m-1 md:-m-2">
-          <div className="flex flex-wrap w-1/3">
+        <div className="flex flex-wrap w-1/3">
             <div className="w-full p-1 md:p-2">
-              <a href="https://employees1-67771.web.app/">
+              <a href="https://add-gold.vercel.app/">
                 <img
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
-                  src={amazonas}
+                  src={adiapp}
                 />
               </a>
             </div>
           </div>
+
           <div className="flex flex-wrap w-1/3">
             <div className="w-full p-1 md:p-2">
-              <a href="https://guajolota-redux.vercel.app/">
+              <a href="https://bookein.vercel.app/">
                 <img
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
-                  src={guajolotas}
+                  src={bokeein}
                 />
               </a>
             </div>
           </div>
-          <div className="flex flex-wrap w-1/3">
-            <div className="w-full p-1 md:p-2">
-              <a href="https://pruebadesalida-18cd7.web.app/">
-                <img
-                  alt="gallery"
-                  className="block object-cover object-center w-full h-full rounded-lg"
-                  src={pokedex}
-                />
-              </a>
-            </div>
-          </div>
+
+
           <div className="flex flex-wrap w-1/3">
             <div className="w-full p-1 md:p-2">
               <a href="https://migo1218.github.io/SPRINT-1/index.html">
@@ -77,15 +72,22 @@ const Projects = () => {
 
           <div className="flex flex-wrap w-1/3">
             <div className="w-full p-1 md:p-2">
-              <a href="https://bookein.vercel.app/">
+              <a href="https://employees1-67771.web.app/">
                 <img
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
-                  src={bokeein}
+                  src={amazonas}
                 />
               </a>
             </div>
           </div>
+        
+         
+         
+
+        
+
+         
 
           <div className="flex flex-wrap w-1/3">
             <div className="w-full p-1 md:p-2">
@@ -94,6 +96,18 @@ const Projects = () => {
                   alt="gallery"
                   className="block object-cover object-center w-full h-full rounded-lg"
                   src={gifsapp}
+                />
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap w-1/3">
+            <div className="w-full p-1 md:p-2">
+              <a href="https://pruebadesalida-18cd7.web.app/">
+                <img
+                  alt="gallery"
+                  className="block object-cover object-center w-full h-full rounded-lg"
+                  src={pokedex}
                 />
               </a>
             </div>

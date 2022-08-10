@@ -16,7 +16,7 @@ const Skills = () => {
     </div>
 
     <div class="mt-10">
-      <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+      <dl class=" w-4/5 m-auto space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
         <div class="relative">
           <dt>
             <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-gray-800 text-white">
@@ -103,6 +103,39 @@ const Skills = () => {
           
         </div>
 
+        <div class="relative">
+          <dt>
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-slate-50 text-white">
+            <img src="https://res.cloudinary.com/dwhhfl68n/image/upload/v1660105304/portafolio/1200px-Node.js_logo.svg_kspqof.png" />
+             
+            </div>
+            <p class="ml-16 pt-2 text-lg leading-6 font-medium text-gray-900">Node JS</p>
+          </dt>
+          
+        </div>
+        
+
+        <div class="relative">
+          <dt>
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-slate-50 text-white">
+            <img src="https://res.cloudinary.com/dwhhfl68n/image/upload/v1660105491/portafolio/reduxtoolkit_le5j2c.png" />
+             
+            </div>
+            <p class="ml-16 pt-2 text-lg leading-6 font-medium text-gray-900">Redux Toolkit</p>
+          </dt>
+          
+        </div>
+
+        <div class="relative">
+          <dt>
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-slate-50 text-white">
+            <img src="https://res.cloudinary.com/dwhhfl68n/image/upload/v1660105790/portafolio/mongodb_gggpxz.jpg" />
+             
+            </div>
+            <p class="ml-16 pt-2 text-lg leading-6 font-medium text-gray-900">Mongo DB</p>
+          </dt>
+          
+        </div>
         
       </dl>
     </div>
